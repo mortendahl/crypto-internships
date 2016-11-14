@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, margin=2.5cm, top=1cm]{geometry}
+
+\pagenumbering{gobble}
+
+\title{Specialised Zero-Knowledge Proofs \\ {\large Crypto Internship Proposal}}
+\author{{\small Snips} \and {\small ..}}
+\date{Spring 2017}
+
+\begin{document}
+\maketitle
+
+\section*{Motivation}
+Zero-knowledge proofs are, among other things, used to enforce desired behaviour in cryptographic protocols, such as proving that an encrypted value lies in a certain domain or that an output was computed according to a pre-described function of unknown values. It is well-known that zero-knowledge proofs exist for all statements with short proofs (i.e. all languages in NP), yet these general constructions are often far from efficient and hence often more of theoretical interest. 
+
+Instead, in practice, specialised zero-knowledge proofs are often developed to fit a specific application and the cryptographic primitives that it uses. For example, if the application uses ElGamal encryption, where an encryption of $m$ under public key $h$ and using randomness $r$ is given by $(g^r, m h^r)$, proving knowledge of a discrete log of $g^r$ corresponds to proving knowledge of $m$. Hence, by following a simple three message zero-knowledge protocol for discrete logs (known as Schnorr's protocol), we can prove that we correctly generated an ElGamal ciphertext, as opposed to, say, simply made a copy of someone else's.
+
+\section*{Objectives}
+\begin{itemize}
+\item Research and develop zero-knowledge proofs for use with our application for private data aggregation, based on secret sharing and homomorphic encryption
+\item Provide technical report detailing the proofs, either as internal documentation or as research paper
+\item Optional implementation (proof-of-concept or production-ready) depending on focus; preferred language is Rust but not a strict requirement
+\end{itemize}
+
+\section*{Skills}
+\begin{itemize}
+\item Suitable for Math/CS/Engineering student with some mathematical maturity (algebra)
+\item No prior programming experience needed but a plus
+\end{itemize}
+
+\section*{Format}
+\begin{itemize}
+\item 4-6 month full-time internship position at Snips in collaboration with university professor
+\item Suitable for those interested in pursuing engineering or research in cryptography
+\end{itemize}
+
+\section*{Company}
+Snips is young start-up located in the centre of Paris. Our primary focus is on data science and machine learning, but since we encourage the principle of \emph{Privacy by Design}, we also have a growing team working on privacy enhancing technologies, such as secure computation, homomorphic encryption, and differential privacy. We are currently around 40 employees, including data scientists, software engineers, designers, and cryptographers.
+
+\end{document}
