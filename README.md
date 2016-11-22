@@ -3,7 +3,7 @@ Snips Crypto Internships, Spring 2017
 
 We are offering several internships around cryptography for the Spring 2017 semester. All proposals are aimed at second year master students in the computing sciences (e.g. mathematics, computer science, engineering).
 
-Please contact [morten.dahl@snips.ai](mailto:morten.dahl@snips.ai) for further information or to begin the application process.
+Please fill out this [application form](http://goo.gl/forms/unuxP6os3h) to get started, or contact [morten.dahl@snips.ai](mailto:morten.dahl@snips.ai) for further information.
 
 
 Private Data Analysis
